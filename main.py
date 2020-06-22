@@ -17,6 +17,7 @@ ano_sum.plot.bar()
 plt.xlabel('Ano')
 plt.ylabel('Valor total de gastos em 10 milhões de reais')
 
-
+plt.title('Gastos Totais Do IMD Por Ano')
+plt.legend()
 
 plt.show()
