@@ -26,3 +26,13 @@ O arquivo `saida.xlsx` contém os dados completos fornecidos pelo csv, como espe
 Após a separação dos dados do Instituto Metrópole Digital dos dados fornecidos foi realizada a criação de uma tabela com todas as ações financeiras do IMD na base que corresponde ao arquivo `saida_only_imd.xlsx` e uma tabela com o somatório anual de ações do instituto que corresponde ao `year_sum.xlsx`.
 
 Além disso com a *Seaborn* e a *Matplotlib* foi criado um gráfico com os valores gastos anualmente pela unidade de 2011 a 2020. O gráfico pode ser melhor visualizado ao executar o arquivo `main.py` e pode ser visualizado no arquivo `graph_imd_gastos.png` (sem completa resolução).
+
+# Instrução de Visualização do Gráfico
+
+Após a instalação do conteúdo do arquivo `requirements.txt`, o arquivo `main.py` pode ser executado normalmente, é indicado o uso da versão 3.7 do python.
+
+## Autoria
+
+Programa desenvolvido por Alaide Lisandra Melo Carvalho (<mendie73@gmail.com>).
+
+&copy; IMD/UFRN 2019-2020.
