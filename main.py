@@ -26,6 +26,8 @@ df = pd.DataFrame(data)
 
 ano_sum = df.groupby(["ano"])["valor"].sum()
 
+ano_sum.to_excel("unidades_por_ano.xlsx")
+
 ano_sum.plot.bar()
 
 plt.xlabel('Ano')
