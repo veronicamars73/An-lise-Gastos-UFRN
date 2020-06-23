@@ -7,11 +7,13 @@ Projeto realizado para contabilização de presença na disciplina de probabilid
 A base de dados escolhida foi a Relação de gastos por unidades da UFRN disponível no site dados.gov.br, foi usado o documento csv disponibilizado no endereço: [link para base](http://www.dados.gov.br/dataset/gastos). Tal arquivo contém os seguintes campos:
 ![Quadro 1: Campos da base de dados - Fonte: Dados Abertos | UFRN](images/campos_bd.png)
 
+*Quadro 1: Campos da base de dados - Fonte: Dados Abertos | UFRN*
+
 ## Introdução à Base de Dados
 
 A base de dados representa os gastos por unidade da UFRN desde o ano de 2000 até o ano de 2020. 
 
-As variáveis da base são: **id_unidade**, que corresponde ao número identificador da unidade e que é uma variável qualitativa nominal; **unidade**, que corresponde ao nome da unidade que realizou o gasto e pode ser classificada como uma variável qualitativa nominal; **natureza_despesa**, que classifica a motivação do gasto e é uma variável qualitativa nominal; **Ano**, que marca qual o ano da movimentação financeira e pode ser classificada como quantitativa discreta e **valor** que apresenta o valor exato do gasto da movimentação.
+As variáveis da base são: **id_unidade**, que corresponde ao número identificador da unidade e que é uma variável *qualitativa nominal*; **unidade**, que corresponde ao nome da unidade que realizou o gasto e pode ser classificada como uma variável *qualitativa nominal*; **natureza_despesa**, que classifica a motivação do gasto e é uma variável *qualitativa nominal*; **Ano**, que marca qual o ano da movimentação financeira e pode ser classificada como *quantitativa discreta* e **valor** que apresenta o valor exato do gasto da movimentação classificável como *quantitativa contínua*.
 
 As unidades amostrais da base são as unidades da universidade, porém para facilitação de observação dos dados e considerando o provável elevado tamanho da base de dados analisaremos, primeiramente, somente os dados do Instituto Metrópole Digital.
 
