@@ -21,3 +21,17 @@ plt.title('Gastos Totais Do IMD Por Ano')
 plt.legend()
 
 plt.show()
+
+df = pd.DataFrame(data)
+
+ano_sum = df.groupby(["ano"])["valor"].sum()
+
+ano_sum.plot.bar()
+
+plt.xlabel('Ano')
+plt.ylabel('Valor total de gastos em 100 milhões de reais')
+
+plt.title('Gastos Totais Das Unidades Por Ano')
+plt.legend()
+
+plt.show()
