@@ -1,6 +1,6 @@
 # Introdução
 
-Análise de gastos por unidade da Universidade Federal do Rio Grande do Norte.
+Projeto realizado para contabilização de presença na disciplina de probabilidade durante o período de 2020.5 no Instituto Metrópole Digital.
 
 ## Base de Dados
 
@@ -41,9 +41,24 @@ Como é notável pelo gráfico existem alguns anos com valores inválidos como o
 
 Além disso, baseando-se nas informações das tabelas e gráficos criados podemos retirar outras conclusões como a de que os primeiros anos de registros apresentam valores bem baixos tanto por pouco gastos e pelo processo de adaptação das unidades aos registros no arquivo. É perceptível também que o ano de 2020 apresenta, assim como registrado no IMD, um decréscimo em relação aos outros anos registrados, sendo o menor gasto em meio ano desde 2009, fato também motivado pelas mudanças causadas pela pandemia.
 
-# Instrução de Visualização do Gráfico
+# Instrução de Visualização dos Gráficos Mencionados
 
-Após a instalação do conteúdo do arquivo `requirements.txt`, o arquivo `main.py` pode ser executado normalmente, é indicado o uso da versão 3.7 do python.
+Primeiro é recomendado a instalação dos requisitos de funcionamento do programa (presente no arquivo `requirements.txt`) com o comando:
+
+``` shell
+$  pip install -r requirements.txt
+```
+ou, para o python 3.7
+
+``` shell
+$  pip3.7 install -r requirements.txt
+```
+
+Após isso execute o programa `main.py` (o uso do python 3.7 é indicado) com o comando
+
+``` shell
+$  python3.7 main.py
+```
 
 ## Autoria
 
