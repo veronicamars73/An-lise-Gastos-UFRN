@@ -31,13 +31,15 @@ Além disso com a *Seaborn* e a *Matplotlib* foi criado um gráfico com os valor
 
 ![Gráfico 1: Gráfico de gastos do IMD por ano - Fonte: Própria](images/graph_imd_gastos.png)
 
-Podemos observar pelo gráfico e pelas tabelas que o Instituto Metrópole Digital apresentou gastos bem baixos (R$ 41069,66) no seu ano de fundação (2011) como era esperado inicialmente. Esse ainda apresentou um considerável decréscimo em 2020 tendo um total de gastos de R$ 1.172.854,65 sendo o ano com menor gasto desde o ano de sua fundação, devido a pandemia que suspendeu o funcionamento da unidade. 
+Podemos observar pelo gráfico e pelas tabelas que o Instituto Metrópole Digital apresentou gastos bem baixos (R$ 41069,66) no seu ano de fundação (2011) como era esperado inicialmente. Esse ainda apresentou um considerável decréscimo em 2020 tendo um total de gastos de R$ 1.172.854,65 sendo o meio ano com menor gasto desde o ano de sua fundação, o que ocorre devido a pandemia que suspendeu o funcionamento da unidade. 
 
 Já na análise de gastos totais de todas as unidades por ano, realizamos a criação da planilha (via *pandas*) contida no arquivo `unidades_por_ano.xlsx` e a criação do gráfico presente no arquivo `images/graph_unidades_ano.png` (melhor visualizado na execução do arquivo `main.py`).
 
 ![Gráfico 2: Gráfico de gastos totais das unidades por ano - Fonte: Própria](images/graph_unidades_ano.png)
 
-Como é notável pelo gráfico existem alguns anos com valores inválidos como o ano de 206 e de 20111 o que é normal considerando o elevado número de informações na base, na análise esses dados não serão considerados.
+Como é notável pelo gráfico existem alguns anos com valores inválidos como o ano de 209 e de 20111 o que é normal considerando o elevado número de informações na base, na análise esses dados não serão considerados.
+
+Além disso, baseando-se nas informações das tabelas e gráficos criados podemos retirar outras conclusões como a de que os primeiros anos de registros apresentam valores bem baixos tanto por pouco gastos e pelo processo de adaptação das unidades aos registros no arquivo. É perceptível também que o ano de 2020 apresenta, assim como registrado no IMD, um decréscimo em relação aos outros anos registrados, sendo o menor gasto em meio ano desde 2009, fato também motivado pelas mudanças causadas pela pandemia.
 
 # Instrução de Visualização do Gráfico
 
