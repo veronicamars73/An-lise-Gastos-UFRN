@@ -30,12 +30,14 @@ Após a separação dos dados do Instituto Metrópole Digital dos dados fornecid
 Além disso com a *Seaborn* e a *Matplotlib* foi criado um gráfico com os valores gastos anualmente pela unidade de 2011 a 2020. O gráfico pode ser melhor visualizado ao executar o arquivo `main.py` e pode ser visualizado no arquivo `images/graph_imd_gastos.png` (sem completa resolução).
 
 ![Gráfico 1: Gráfico de gastos do IMD por ano - Fonte: Própria](images/graph_imd_gastos.png)
+*Gráfico 1: Gráfico de gastos do IMD por ano - Fonte: Própria*
 
 Podemos observar pelo gráfico e pelas tabelas que o Instituto Metrópole Digital apresentou gastos bem baixos (R$ 41069,66) no seu ano de fundação (2011) como era esperado inicialmente. Esse ainda apresentou um considerável decréscimo em 2020 tendo um total de gastos de R$ 1.172.854,65 sendo o meio ano com menor gasto desde o ano de sua fundação, o que ocorre devido a pandemia que suspendeu o funcionamento da unidade. 
 
 Já na análise de gastos totais de todas as unidades por ano, realizamos a criação da planilha (via *pandas*) contida no arquivo `unidades_por_ano.xlsx` e a criação do gráfico presente no arquivo `images/graph_unidades_ano.png` (melhor visualizado na execução do arquivo `main.py`).
 
 ![Gráfico 2: Gráfico de gastos totais das unidades por ano - Fonte: Própria](images/graph_unidades_ano.png)
+*Gráfico 2: Gráfico de gastos totais das unidades por ano - Fonte: Própria*
 
 Como é notável pelo gráfico existem alguns anos com valores inválidos como o ano de 209 e de 20111 o que é normal considerando o elevado número de informações na base, na análise esses dados não serão considerados.
 
