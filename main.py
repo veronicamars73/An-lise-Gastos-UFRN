@@ -29,7 +29,7 @@ ano_sum = df.groupby(["ano"])["valor"].sum()
 ano_sum.plot.bar()
 
 plt.xlabel('Ano')
-plt.ylabel('Valor total de gastos em 100 milhões de reais')
+plt.ylabel('Valor total de gastos em 1 bilhão de reais')
 
 plt.title('Gastos Totais Das Unidades Por Ano')
 plt.legend()
